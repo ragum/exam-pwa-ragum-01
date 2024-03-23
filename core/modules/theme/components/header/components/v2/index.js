@@ -76,7 +76,7 @@ const HeaderV2 = (props) => {
                                 sticky.style.top = `-${headerHeight}px`;
                                 sticky.appendChild(headerContent);
                                 header.style.height = `${globalPromoheight + midHeaderheight}px`;
-                                sticky.style.top = `-${midHeaderheight}px`;
+                                sticky.style.top = '0px';
                             }
                         } else if (scrollTopPosition < lastScrollTop) {
                             if (scrollTopPosition > globalPromoheight) {
